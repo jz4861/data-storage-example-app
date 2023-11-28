@@ -14,7 +14,7 @@ const authenticationRouter = () => {
     // console.log(`Incoming signup data: ${JSON.stringify(req.body, null, 0)}`)
     // grab the username and password from the POST body
     const username = req.body.username;
-    const password = req.body.password;
+    const password = req.body.pw;
 
     if (!username || !password) {
       // no username or password received in the POST body... send an error
